@@ -11,8 +11,11 @@
 }
 
 .board{
-  margin-top: 10%;
-  margin-left: 19%;
+  width: 200px;
+  height: 200px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .squareBox::after{
@@ -35,32 +38,31 @@
   width: 64px;
   border: 3px solid tomato;
 }
+
+.border:focus {
+  outline: none;
+}
 .status{
-  margin-top:5%;
-  text-align: center;
+  margin-top:30px;
 }
-
-@media screen and (min-width: 375px){
-  .board{
-    margin-left: 25%;
-  }
+li{
+  list-style-type: none;
 }
-@media screen and (min-width: 425px){
-  .board{
-    margin-left: 28%;
-  }
+.history{
+  margin-top: 60px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}  
+.button{
+  width: 100px;
+  height: 50px;
+  background-color: rgb(207, 197, 197);
+  color: rgb(94, 85, 85);
+  border-radius: 9px;
+  outline: none;
+  border: none;
+  float: left;
+  
 }
-@media screen and (min-width: 768px){
-  .board{
-    margin-left: 40%;
-    margin-top: 5%;
-  }
-  .border{
-    height: 84px;
-    width: 84px;
-    line-height: 84px;
-    font-size: 35px;
-  }
-}
-
 
