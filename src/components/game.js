@@ -23,6 +23,7 @@ function Game(props) {
         xIsNext ? setXIsNext(false) : setXIsNext(true);
         //   or
         //   setxIsNext(!xIsNext);
+        // 
       }
 
       const jumpTo = (step) => {
